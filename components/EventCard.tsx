@@ -30,10 +30,6 @@ export const EventCard: React.FC<EventCardProps> = ({ event }) => {
           colors={['transparent', 'rgba(0,0,0,0.7)']}
           style={styles.gradient}
         />
-        <View style={styles.vibeMatchContainer}>
-          <Text style={styles.vibeMatchText}>{event.vibeMatch}%</Text>
-          <Text style={styles.vibeMatchLabel}>vibe match</Text>
-        </View>
       </View>
       
       <View style={styles.contentContainer}>
@@ -121,25 +117,6 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     height: 80,
-  },
-  vibeMatchContainer: {
-    position: 'absolute',
-    top: 12,
-    right: 12,
-    backgroundColor: COLORS.secondary,
-    borderRadius: 12,
-    padding: 8,
-    alignItems: 'center',
-  },
-  vibeMatchText: {
-    ...TYPOGRAPHY.heading3,
-    color: COLORS.white,
-    fontSize: 18,
-  },
-  vibeMatchLabel: {
-    ...TYPOGRAPHY.caption,
-    color: COLORS.white,
-    fontSize: 10,
   },
   contentContainer: {
     padding: 16,

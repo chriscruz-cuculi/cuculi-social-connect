@@ -33,7 +33,6 @@ export interface Event {
   date: string;
   time: string;
   duration: string;
-  vibeMatch: number;
   location: EventLocation;
   attendees: Attendee[];
   maxAttendees: number;

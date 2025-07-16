@@ -9,7 +9,6 @@ export const MOCK_EVENTS: Event[] = [
     date: '2025-06-20',
     time: '19:00',
     duration: '3 hours',
-    vibeMatch: 85,
     location: {
       name: 'Artisan Studio',
       address: '123 Creative Ave, Brooklyn, NY',
@@ -109,7 +108,6 @@ export const MOCK_EVENTS: Event[] = [
     date: '2025-06-22',
     time: '18:30',
     duration: '2.5 hours',
-    vibeMatch: 92,
     location: {
       name: 'Green Harvest Restaurant',
       address: '456 Organic Lane, Manhattan, NY',
@@ -188,7 +186,6 @@ export const MOCK_EVENTS: Event[] = [
     date: '2025-06-21',
     time: '17:00',
     duration: '3 hours',
-    vibeMatch: 78,
     location: {
       name: 'Global Kitchen',
       address: '789 Flavor Street, Queens, NY',

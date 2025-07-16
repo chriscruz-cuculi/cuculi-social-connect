@@ -90,11 +90,6 @@ export default function EventDetailScreen() {
               <Text style={styles.hostName}>Hosted by {event.host.name}</Text>
             </View>
           </View>
-          
-          <View style={styles.vibeMatchContainer}>
-            <Text style={styles.vibeMatchText}>{event.vibeMatch}%</Text>
-            <Text style={styles.vibeMatchLabel}>vibe match</Text>
-          </View>
         </View>
         
         <View style={styles.detailsContainer}>
@@ -267,25 +262,6 @@ const styles = StyleSheet.create({
   hostName: {
     ...TYPOGRAPHY.bodySmall,
     color: COLORS.white,
-  },
-  vibeMatchContainer: {
-    position: 'absolute',
-    top: 16,
-    right: 16,
-    backgroundColor: COLORS.secondary,
-    borderRadius: 12,
-    padding: 8,
-    alignItems: 'center',
-  },
-  vibeMatchText: {
-    ...TYPOGRAPHY.heading3,
-    color: COLORS.white,
-    fontSize: 18,
-  },
-  vibeMatchLabel: {
-    ...TYPOGRAPHY.caption,
-    color: COLORS.white,
-    fontSize: 10,
   },
   detailsContainer: {
     backgroundColor: COLORS.white,
